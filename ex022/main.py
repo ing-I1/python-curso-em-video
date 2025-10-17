@@ -1,0 +1,5 @@
+a = str("Curso em Video").strip()
+print(f"{a.upper()}")
+print(f"{a.lower()}")
+print(f"{len(a) - a.count(" ")}")
+print(f"{len(a.split()[0])}")
